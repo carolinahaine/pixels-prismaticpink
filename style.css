@@ -1,3 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Parkinsans:wght@300..800&family=Pixelify+Sans:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: #e8dde8;
+    background-image: url('img/bgtest.gif');
+    letter-spacing: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 1000px;
+}
+
+header {
+    position: absolute;
+    z-index: 1 !important;
+    left: 500px;
+    top: 75px;
+    width: 411px;
+    height: 71px;
+}
+
+#layout {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); 
+  z-index: 0 !important;
+  width: 800px;
+  height: 600px;
+  background-image: url('img/layout.gif');
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    text-shadow: #fff 2px 0px, #fff -2px 0px, #fff 0px 2px, #fff 0px -2px;
+    color: #f281ba;
+    font-family: 'Pixelify Sans';
+    font-size: 30px;
+}
+
+#title {
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    font-family: 'Pixelify Sans';
+    text-transform: lowercase;
+    font-size: 18px;
+    color: #f281ba;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f281ba;
+}
+
+nav a:hover {
+    color: #f281ba;
+    text-shadow: #fff 2px 0px, #fff -2px 0px, #fff 0px 2px, #fff 0px -2px;
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+}
+
+#menu {
+    text-align: center;
+    font-family: 'Pixelify Sans';
+    text-transform: lowercase;
+    font-size: 18px;
+}
+
+#menu ul {
+    margin: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #4a8e8d;
+}
+
+#menu a:hover {
+    color: #4a8e8d;
+    text-shadow: #fff 2px 0px, #fff -2px 0px, #fff 0px 2px, #fff 0px -2px;
+}
+
+main {
+    position: absolute;
+    left: 458px;
+    top: 202px;
+    width: 538px;
+    height: 402px;
+    padding: 10px;
+    color: #585858;
+    font-family: 'Pixelify Sans';
+    font-size: 12px;
+    low-x: hidden;
+    overflow-y: scroll;
+    scrollbar-color: #f255fa #e6e6e6;
+    scrollbar-width: thin;
+    background-color: #e8dde8;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    position: absolute;
+      left: 650px;
+  bottom: 80px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #585858;
+    text-shadow: #ffffff 1px 0px, #ffffff -1px 0px, #ffffff 0px 1px, #ffffff 0px -1px;
+    font-family: 'Pixelify Sans';
+    font-size: 12px;
+    letter-spacing: 1px;
 }
