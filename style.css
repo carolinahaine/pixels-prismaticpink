@@ -112,9 +112,9 @@ nav li {
 
 main {
     position: relative;
-    left: 191px;
-    top: -522px;
-    width: 538px;
+    left: 91px;
+    top: 128px;
+    width: 537px;
     height: 402px;
     padding: 10px;
     color: #585858;
@@ -134,7 +134,7 @@ p {
 footer {
     position: relative;
       left: 20px;
-  top: -495px;
+  bottom: 70px;
     text-align: center;
     text-transform: lowercase;
     color: #585858;
