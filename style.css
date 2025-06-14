@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Parkinsans:wght@300..800&family=Pixelify+Sans:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
+    position: relative;
     background-color: #e8dde8;
     background-image: url('img/bgtest.gif');
     letter-spacing: 1px;
@@ -11,7 +12,7 @@ body {
 }
 
 header {
-    position: absolute;
+    position: relative;
     z-index: 1 !important;
     left: 500px;
     top: 75px;
@@ -20,9 +21,9 @@ header {
 }
 
 #layout {
-position: absolute;
-top: 50%;
-left: 50%;
+position: relative;
+top: 250px;
+left: 500px;
 transform: translate(-50%, -50%); 
   z-index: 0 !important;
   width: 800px;
@@ -32,6 +33,9 @@ transform: translate(-50%, -50%);
 
 header {
     text-align: center;
+    position: relative;
+    top: 40px;
+    left: 250px;
 }
 
 h1 {
@@ -107,9 +111,9 @@ nav li {
 }
 
 main {
-    position: absolute;
-    left: 458px;
-    top: 202px;
+    position: relative;
+    left: 191px;
+    top: -522px;
     width: 538px;
     height: 402px;
     padding: 10px;
@@ -128,9 +132,9 @@ p {
 }
 
 footer {
-    position: absolute;
-      left: 650px;
-  bottom: 80px;
+    position: relative;
+      left: 20px;
+  top: -495px;
     text-align: center;
     text-transform: lowercase;
     color: #585858;
