@@ -9,13 +9,15 @@ body {
     margin-left: auto;
     margin-top: 20px;
     width: 1000px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 header {
     position: relative;
     z-index: 1 !important;
-    left: 500px;
-    top: 75px;
+    left: 250px;
+    top: 40px;
     width: 411px;
     height: 71px;
 }
@@ -29,85 +31,6 @@ transform: translate(-50%, -50%);
   width: 800px;
   height: 600px;
   background-image: url('img/layout.gif');
-}
-
-header {
-    text-align: center;
-    position: relative;
-    top: 40px;
-    left: 250px;
-}
-
-h1 {
-    text-shadow: #fff 2px 0px, #fff -2px 0px, #fff 0px 2px, #fff 0px -2px;
-    color: #f281ba;
-    font-family: 'Pixelify Sans';
-    font-size: 30px;
-}
-
-#title {
-    text-decoration: none;
-}
-
-nav {
-    text-align: center;
-    font-family: 'Pixelify Sans';
-    text-transform: lowercase;
-    font-size: 18px;
-    color: #f281ba;
-}
-
-nav a {
-    text-decoration: none;
-    color: #f281ba;
-}
-
-nav a:hover {
-    color: #f281ba;
-    text-shadow: #fff 2px 0px, #fff -2px 0px, #fff 0px 2px, #fff 0px -2px;
-}
-
-nav ul {
-    margin: 0;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-nav li {
-    display: inline-block;
-    margin: 0px 50px 0px 50px;
-}
-
-#menu {
-    text-align: center;
-    font-family: 'Pixelify Sans';
-    text-transform: lowercase;
-    font-size: 18px;
-}
-
-#menu ul {
-    margin: 0;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-#menu li {
-    display: inline-block;
-    margin: 0px 50px 0px 50px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #4a8e8d;
-}
-
-#menu a:hover {
-    color: #4a8e8d;
-    text-shadow: #fff 2px 0px, #fff -2px 0px, #fff 0px 2px, #fff 0px -2px;
 }
 
 main {
@@ -125,9 +48,78 @@ main {
     scrollbar-color: #f255fa #e6e6e6;
     scrollbar-width: thin;
     background-color: #e8dde8;
+    text-align: center;
+}
+
+#borders {
+    width: 1px;
+    height: 1px;
+}
+
+#borders ul {
+    list-style-type: none;
+    position: relative;
+    display: block;
+    top: -330px;
+    left: 660px;
+    margin-bottom: 40px;
+    z-index: 999 !important;
+}
+
+#borders li {
+    position: relative;
+    display: block;
+    top: -330px;
+    left: 660px;
+    margin-bottom: 40px;
+    z-index: 999 !important;
+}
+
+#menu {
+    width: 1px;
+    height: 1px;
+}
+
+#menu ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 999 !important;
+}
+
+#menu li {
+    position: relative;
+    display: block;
+    top: -341px;
+    left: 666px;
+    margin-bottom: 51px;
+    z-index: 999 !important;
+}
+
+#menu li img {
+    transition: transform 0.3s ease;
+}
+
+#menu li img:hover {
+    transform: translateY(-5px);
+}
+
+#menu li img {
+  cursor: pointer;
+}
+
+h2 {
+    color: #f255fa;
+    text-transform: lowercase;
+    font-weight: normal;
 }
 
 p {
+    text-align: justify;
+}
+
+ul {
+    list-style-image: url('http://blog.prismatic.pink/wp-content/uploads/2024/10/icon-gif.gif');
     text-align: justify;
 }
 
