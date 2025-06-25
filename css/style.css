@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Parkinsans:wght@300..800&family=Pixelify+Sans:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
+html, body {
+    cursor: url('../img/cursor.gif'), auto;
+    overflow: clip;
+}
+
+a {
+    cursor: url('../img/cursor.gif'), auto;
+    color: #f255fa;
+}
+
 body {
     position: relative;
     background-color: #e8dde8;
@@ -63,15 +73,6 @@ transform: translate(-50%, -50%);
 #sites a:hover {
     text-decoration: none;
     color: #3da361;
-}
-
-html, body {
-    cursor: url('../img/cursor.gif'), auto;
-}
-
-a {
-    cursor: url('../img/cursor.gif'), auto;
-    color: #f255fa;
 }
 
 a:hover {
