@@ -9,8 +9,6 @@ body {
     margin-left: auto;
     margin-top: 20px;
     width: 1000px;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 header {
@@ -20,6 +18,10 @@ header {
     top: 40px;
     width: 411px;
     height: 71px;
+}
+
+header h1:hover {
+    filter: drop-shadow(1px 5px 5px #00000061);
 }
 
 #layout {
@@ -153,10 +155,7 @@ main {
 
 #menu li img:hover {
     transform: translateY(-5px);
-}
-
-#menu li img {
-  cursor: pointer;
+    filter: drop-shadow(1px 5px 5px #00000061);
 }
 
 h2 {
