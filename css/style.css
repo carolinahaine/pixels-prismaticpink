@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Parkinsans:wght@300..800&family=Pixelify+Sans:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    position: relative;
+    background-color: #e8dde8;
+    background-image: url('../img/bgtest.gif');
+    letter-spacing: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 1000px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header {
+    position: relative;
+    z-index: 1 !important;
+    left: 250px;
+    top: 40px;
+    width: 411px;
+    height: 71px;
+}
+
+#layout {
+position: relative;
+top: 250px;
+left: 500px;
+transform: translate(-50%, -50%); 
+  z-index: 0 !important;
+  width: 800px;
+  height: 600px;
+  background-image: url('../img/layout.gif');
+}
+
+#sites {
+    position: relative;
+    z-index: 999;
+    top: 50px;
+    left: 775px;
+    width: 1px;
+    height: 1px;
+    text-transform: lowercase;
+    list-style-type: none;
+    list-style-image: none;
+    color: #585858;
+    text-shadow: #ffffff 1px 0px, #ffffff -1px 0px, #ffffff 0px 1px, #ffffff 0px -1px;
+    font-family: 'Pixelify Sans';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#sites a,
+#sites a:visited,
+#sites a:active {
+    text-decoration: none;
+    color: #585858;
+}
+
+#sites a:hover {
+    text-decoration: none;
+    color: #3da361;
+}
+
+html, body {
+    cursor: url('../img/cursor.gif'), auto;
+}
+
+a {
+    cursor: url('../img/cursor.gif'), auto;
+    color: #f255fa;
+}
+
+a:hover {
+    color: #3da361;
+    letter-spacing: 3px;
+    text-shadow: #ffffff 1px 0px, #ffffff -1px 0px, #ffffff 0px 1px, #ffffff 0px -1px;
+}
+
+strong {
+    color: #3da361;
+    text-shadow: #ffffff 1px 0px, #ffffff -1px 0px, #ffffff 0px 1px, #ffffff 0px -1px;
+}
+
+
+main {
+    position: relative;
+    left: 91px;
+    top: 128px;
+    width: 537px;
+    height: 402px;
+    padding: 10px;
+    color: #585858;
+    font-family: 'Pixelify Sans';
+    font-size: 12px;
+    low-x: hidden;
+    overflow-y: scroll;
+    scrollbar-color: #f255fa #e6e6e6;
+    scrollbar-width: thin;
+    background-color: #e8dde8;
+    text-align: center;
+}
+
+#borders {
+    width: 1px;
+    height: 1px;
+}
+
+#borders ul {
+    list-style-type: none;
+    position: relative;
+    display: block;
+    top: -330px;
+    left: 660px;
+    margin-bottom: 40px;
+    z-index: 999 !important;
+}
+
+#borders li {
+    position: relative;
+    display: block;
+    top: -330px;
+    left: 660px;
+    margin-bottom: 40px;
+    z-index: 999 !important;
+}
+
+#menu {
+    width: 1px;
+    height: 1px;
+}
+
+#menu ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 999 !important;
+}
+
+#menu li {
+    position: relative;
+    display: block;
+    top: -341px;
+    left: 666px;
+    margin-bottom: 51px;
+    z-index: 999 !important;
+}
+
+#menu li img {
+    transition: transform 0.3s ease;
+}
+
+#menu li img:hover {
+    transform: translateY(-5px);
+}
+
+#menu li img {
+  cursor: pointer;
+}
+
+h2 {
+    color: #f255fa;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    list-style-image: url('http://blog.prismatic.pink/wp-content/uploads/2024/10/icon-gif.gif');
+    text-align: justify;
+}
+
+.pixel:hover {
+    transform: scale(3);
+    image-rendering: pixelated;
+    transition: all 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.pixel {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.links:hover {
+    transform: scale(1.10);
+    image-rendering: auto;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.links {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+footer {
+    position: relative;
+      left: 20px;
+  bottom: 70px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #585858;
+    text-shadow: #ffffff 1px 0px, #ffffff -1px 0px, #ffffff 0px 1px, #ffffff 0px -1px;
+    font-family: 'Pixelify Sans';
+    font-size: 12px;
+    letter-spacing: 1px;
+}
