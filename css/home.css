@@ -312,11 +312,16 @@ footer {
     z-index: 0 !important;
     background-image: url('../img/layout-mobile.gif');
 }
+
     header {
     width: 100%;
     max-width: 100vw;
     position: relative;
-    left: -5px;
+    left: 40px;
+    }
+
+    header img {
+    width: 85%;
     }
 
     nav {
