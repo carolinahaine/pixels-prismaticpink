@@ -214,6 +214,7 @@ footer {
     max-width: 100vw;
     margin: 10px;
     padding-left: 10px;
+    padding-top: 5px;
     box-sizing: border-box;
     overflow-x: clip;
     }
@@ -226,7 +227,9 @@ footer {
     transform: translate(-50%, -50%); 
     z-index: 0 !important;
     background-image: url('../img/layout-mobile.gif');
+    height: 670px;
 }
+
     header {
     width: 100%;
     max-width: 100vw;
@@ -264,14 +267,21 @@ footer {
   }
 
   #borders {
-    display: none;
+    position: relative;
+    display: flex;
+    top: 490px;
+    left: -262px;
   }
 
   #menu {
     position: relative;
     display: flex;
-    top: 503px;
-    left: -245px;
+    top: 490px;
+    left: -262px;
+  }
+
+  #menu li {
+    margin-right: 11px;
   }
 
     #main-content {
@@ -292,7 +302,7 @@ footer {
    footer {
     width: 100%;
     max-width: 100vw;
-    left: -2px;
+    top: -202px;
     }
 
 }
