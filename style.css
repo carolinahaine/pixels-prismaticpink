@@ -63,7 +63,12 @@ transform: translate(-50%, -50%);
     color: #3da361;
 }
 
+html, body {
+    cursor: url('img/cursor.gif'), auto;
+}
+
 a {
+    cursor: url('img/cursor.gif'), auto;
     color: #f255fa;
 }
 
