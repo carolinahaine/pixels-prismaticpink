@@ -206,3 +206,91 @@ footer {
     font-size: 12px;
     letter-spacing: 1px;
 }
+
+@media (max-width: 767px) {
+
+   body {
+    width: 95%;
+    max-width: 100vw;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    }
+
+    #layout {
+    position: relative;
+    left: -10px;
+    border: 0;
+    padding: 0;
+    transform: translate(-50%, -50%); 
+    z-index: 0 !important;
+    background-image: url('../img/layout-mobile.gif');
+}
+    header {
+    width: 100%;
+    max-width: 100vw;
+    position: relative;
+    left: -5px;
+    }
+
+    nav {
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    }
+
+    main {
+    width: 100%;
+    max-width: 100vw;
+    left: 485px;
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pixel {
+    transition: none
+  }
+
+  .pixel:hover {
+    transform: none;
+    image-rendering: auto;
+    transition: none;
+    image-rendering: auto !important;
+  }
+
+  #borders {
+    display: none;
+  }
+
+  #menu {
+    position: relative;
+    display: flex;
+    top: 503px;
+    left: -245px;
+  }
+
+    #main-content {
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+    section {
+    width: 100%;
+  max-width: 100vw;
+  padding: 20px;
+  order: 1;
+  box-sizing: border-box;
+    }
+
+   footer {
+    width: 100%;
+    max-width: 100vw;
+    left: -2px;
+    }
+
+}
