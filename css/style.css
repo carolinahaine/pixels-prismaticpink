@@ -246,8 +246,6 @@ footer {
     max-width: 100vw;
     left: 485px;
     width: 245px;
-    display: flex;
-    flex-direction: column;
   }
 
   .pixel {
